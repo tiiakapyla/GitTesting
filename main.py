@@ -5,8 +5,12 @@
 def add(number1, number2):
     return number1 + number2
 
+def deduction(number1, number2):
+    return number1 - number2
+
 # --- user input numbers 1 and 2 ---
 number1, number2 = int(input()), int(input())
 
 # --- prints return, so it shows in terminal too
 print(add(number1, number2))
+print(deduction(number1, number2))
